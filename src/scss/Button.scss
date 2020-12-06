@@ -1,7 +1,9 @@
 .btn{
+  display: flex;
+  justify-content: space-around;
   border: none;
   padding: 12px 24px;
-  width: 50px;
+  width: 110px;
   margin:5px;
   border-radius: 10px;
   background-color: rgb(48, 76, 138);

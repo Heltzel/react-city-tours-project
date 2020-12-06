@@ -1,14 +1,9 @@
-import './App.scss'
-import './scss/Button.scss'
-import { FaReact } from 'react-icons/fa'
-
+import Navbar from './components/Navbar/NavBar'
+import './scss/App.scss'
 function App() {
   return (
     <div className="App">
-      <h1>
-        Hello from App <FaReact />
-        <div className="btn">Button</div>
-      </h1>
+      <Navbar />
     </div>
   )
 }
