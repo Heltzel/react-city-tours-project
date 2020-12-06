@@ -1,10 +1,12 @@
-import Navbar from './components/Navbar/NavBar'
 import './scss/App.scss'
+import Navbar from './components/Navbar/NavBar'
+import TourList from './components/TourList'
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <Navbar />
-    </div>
+      <TourList />
+    </main>
   )
 }
 
